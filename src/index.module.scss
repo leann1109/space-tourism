@@ -1,0 +1,45 @@
+* {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+  }
+}
+
+.homeBackground {
+  background-image: url('./assets/home/background-home-desktop.jpg');
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.description {
+  color: #D0D6F9;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 4.7px;
+  width: 450px;
+  height: 380px;
+
+  > span {
+    color: #FFFFFF;
+    font-family: 'Bellefair', serif;
+    font-size: 9.375rem;
+  }
+
+  > p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+  }
+}
+
+.exploreButton {
+  width: 274px;
+  height: 274px;
+  border-radius: 180px;
+  fill: #FFFFFF;
+  font-family: 'Bellefair';
+  font-size: 2rem;
+  font-weight: 400;
+}

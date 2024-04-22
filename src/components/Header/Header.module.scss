@@ -1,0 +1,31 @@
+.headerContainer {
+  display: flex;
+}
+
+.navbarLogo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100dvw;
+
+  > ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.linksContainer {
+  display: flex;
+  // filter: blur(4px);
+
+  > li {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+}
