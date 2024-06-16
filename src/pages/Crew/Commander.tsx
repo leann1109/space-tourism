@@ -4,7 +4,7 @@ import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Commander = () => {
   return (
-    <main className={bgStyles.crewBG}>
+    <main className={`${bgStyles.crewBG} ${bgStyles.bgSize}`}>
       <Header />
       <div>
       02 Meet your crew<br />

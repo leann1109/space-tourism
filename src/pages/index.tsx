@@ -1,11 +1,11 @@
 import React from "react";
 import { Header } from "../components/Header/Header";
-import styles from "../index.module.scss";
+import styles from "../App.module.scss";
 import bgStyles from "../styles/backgrounds.module.scss";
 
 export const Home = () => {
   return (
-    <main className={bgStyles.homeBG}>
+    <main className={`${bgStyles.homeBG} ${bgStyles.bgSize}`}>
       <Header />
       <div className={styles.description}>
         SO, YOU WANT TO TRAVEL TO<br />

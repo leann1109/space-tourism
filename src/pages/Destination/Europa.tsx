@@ -4,7 +4,7 @@ import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Europa = () => {
   return (
-    <main className={bgStyles.destinationBG}>
+    <main className={`${bgStyles.destinationBG} ${bgStyles.bgSize}`}>
       <Header />
       <div>
       01 Pick your destination<br />

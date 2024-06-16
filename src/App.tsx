@@ -5,11 +5,12 @@ import { Home } from './pages';
 import { Mars } from './pages/Destination/Mars';
 import { Commander } from './pages/Crew/Commander';
 import { Technology1 } from './pages/Technology/Technology1';
+import './App.module.scss';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destination" element={<Mars />} />

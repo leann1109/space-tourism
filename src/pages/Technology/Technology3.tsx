@@ -4,7 +4,7 @@ import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Technology3 = () => {
   return (
-    <main className={bgStyles.technologyBG}>
+    <main className={`${bgStyles.technologyBG} ${bgStyles.bgSize}`}>
       <Header />
       <div>
       03 Space launch 101<br />
