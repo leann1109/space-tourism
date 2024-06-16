@@ -1,19 +1,24 @@
 import React from 'react';
-import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-const App: React.FC = () => {
+import { Home } from './pages';
+import { Mars } from './pages/Destination/Mars';
+import { Commander } from './pages/Crew/Commander';
+import { Technology1 } from './pages/Technology/Technology1';
+
+function App() {
   return (
-    <div>
-      Hello World
-    </div>
-  )
-};
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/destination" element={<Mars />} />
+          <Route path="/crew" element={<Commander />} />
+          <Route path="/technology" element={<Technology1 />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
 export default App;
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
