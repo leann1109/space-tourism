@@ -1,39 +1,48 @@
+@import './styles/_variables.module.scss';
+
 * {
   body {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     margin: 0;
-    font-family: 'Barlow Condensed', sans-serif;
-    color: #FFFFFF;
-  }
+    color: $primary-color;
+  };
+};
+
+.heading1, .heading2, .heading3, .heading4 {
+  font-family: $secondary-font;
+};
+
+.heading1 {
+  font-size: $heading1-font-size;
+};
+
+.heading2 {
+  font-size: $heading2-font-size;
+};
+
+.heading3 {
+  font-size: $heading3-font-size;
+};
+
+.heading4 {
+  font-size: $heading4-font-size;
+};
+
+.heading5 {
+  font-family: $primary-font;
+  font-size: $heading5-font-size;
+  letter-spacing: $heading5-char-space;
+};
+
+.subheading1 {
+  font-family: $secondary-font;
+  font-size: $subheading1-font-size;
 }
 
-.description {
-  color: #D0D6F9;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 1.75rem;
-  letter-spacing: 4.7px;
-  width: 450px;
-  height: 380px;
-
-  > span {
-    color: #FFFFFF;
-    font-family: 'Bellefair', serif;
-    font-size: 9.375rem;
-  }
-
-  > p {
-    font-size: 1.125rem;
-    line-height: 2rem;
-    letter-spacing: 0;
-  }
-}
-
-.exploreButton {
-  width: 274px;
-  height: 274px;
-  border-radius: 180px;
-  fill: #FFFFFF;
-  font-family: 'Bellefair';
-  font-size: 2rem;
-  font-weight: 400;
-}
+.subheading2 {
+  font-family: $primary-font;
+  font-size: $subheading2-font-size;
+  letter-spacing: $subheading2-char-space;
+};

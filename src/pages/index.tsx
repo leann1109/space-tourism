@@ -1,13 +1,15 @@
 import React from "react";
 import { Header } from "../components/Header/Header";
-import styles from "../App.module.scss";
+import styles from "./index.module.scss";
 import bgStyles from "../styles/backgrounds.module.scss";
 
 export const Home = () => {
   return (
     <main className={`${bgStyles.homeBG} ${bgStyles.bgSize}`}>
       <Header />
-      <div className={styles.description}>
+
+      <div>
+      <section className={styles.description}>
         SO, YOU WANT TO TRAVEL TO<br />
         <span>SPACE</span><br />
         <p>
@@ -15,9 +17,13 @@ export const Home = () => {
         outer space and not hover kind of on the edge of it. Well sit back, and relax 
         because we’ll give you a truly out of this world experience!
         </p>
-      </div>
+      </section>
 
-      <button className={styles.exploreButton}>EXPLORE</button>  
+      <section>
+        <button className={styles.exploreButton}>EXPLORE</button>  
+      </section>
+
+      </div>
     </main>
   )
 };

@@ -7,7 +7,7 @@ import { Commander } from './pages/Crew/Commander';
 import { Technology1 } from './pages/Technology/Technology1';
 import './App.module.scss';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>

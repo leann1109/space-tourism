@@ -1,0 +1,46 @@
+// Font colors
+$primary-color: #FFFFFF;
+$secondary-color: #D0D6F9;
+$tertiary-color: #0B0D17;
+
+// Font family
+$primary-font: 'Barlow Condensed', sans-serif;
+$secondary-font: 'Bellefair', serif;
+
+// Font size
+$primary-font-size: 1rem; // 16px
+$heading1-font-size: 9.375rem; // 150px
+$heading2-font-size: 6.25rem; // 100px
+$heading3-font-size: 3.5rem; // 56px
+$heading4-font-size: 2rem; // 32px
+$heading5-font-size: 1.75rem; // 28px
+$subheading1-font-size: 1.75rem; // 28px
+$subheading2-font-size: .875rem; // 14px
+
+// Letter spacing
+$heading5-char-space: 4.75;
+$subheading2-char-space: 2.35;
+$nav-char-space: 2.7;
+
+// Export variables
+:export {
+  primary-color: $primary-color;
+  secondary-color: $secondary-color;
+  tertiary-color: $tertiary-color;
+
+  primary-font: $primary-font;
+  secondary-font: $secondary-font;
+
+  primary-font-size: $primary-font-size;
+  heading1-font-size: $heading1-font-size;
+  heading2-font-size: $heading2-font-size;
+  heading3-font-size: $heading3-font-size;
+  heading4-font-size: $heading4-font-size;
+  heading5-font-size: $heading5-font-size;
+  subheading1-font-size: $subheading1-font-size;
+  subheading2-font-size: $subheading2-font-size;
+
+  heading5-char-space: $heading5-char-space;
+  subheading2-char-space: $subheading2-char-space;
+  nav-char-space: $nav-char-space;
+};

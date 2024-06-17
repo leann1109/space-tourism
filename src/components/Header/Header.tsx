@@ -4,7 +4,7 @@ import styles from './Header.module.scss'
 export const Header = () => {
   return (
     <header className={styles.headerContainer}>
-      <nav className={styles.navbar}>
+      <nav className={`${styles.navbar} ${styles.navText}`}>
         <img 
           className={styles.navbarLogo}
           src='./assets/shared/logo.svg' 
@@ -12,10 +12,10 @@ export const Header = () => {
         />
         <ul>
           <div className={styles.linksContainer}>
-            <li><strong>00 </strong>Home</li>
-            <li><strong>01 </strong>Destination</li>
-            <li><strong>02 </strong>Crew</li>
-            <li><strong>03 </strong>Technology</li>
+            <li><a className={styles.links} href="/"><strong>00 </strong>Home</a></li>
+            <li><a className={styles.links} href="/destination"><strong>01 </strong>Destination</a></li>
+            <li><a className={styles.links} href="/crew"><strong>02 </strong>Crew</a></li>
+            <li><a className={styles.links} href="/technology"><strong>03 </strong>Technology</a></li>
           </div>
         </ul>
       </nav>

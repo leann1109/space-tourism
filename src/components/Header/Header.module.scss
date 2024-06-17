@@ -1,3 +1,5 @@
+@import '../../styles/variables.module';
+
 .headerContainer {
   display: flex;
 }
@@ -27,5 +29,29 @@
   > li {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.04);
+    color: $primary-color;
   }
 }
+
+.links {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.links:active {
+  color :$primary-color;
+  stroke: $primary-color;
+  stroke-width: 100%;
+}
+
+.links:hover {
+  stroke: #979797;
+  stroke-width: 100%;
+}
+
+.navText {
+  font-family: $primary-font;
+  font-size: $primary-font-size;
+  color: $primary-color;
+  letter-spacing: $nav-char-space;
+};

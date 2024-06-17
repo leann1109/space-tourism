@@ -1,0 +1,30 @@
+.description {
+  color: secondary-color;
+  font-family: primary-font;
+  font-size: 1.75rem;
+  letter-spacing: 4.7px;
+  width: 450px;
+
+  > span {
+    color: primary-color;
+    font-family: secondary-font;
+    font-size: 9.375rem;
+  }
+
+  > p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+    margin: 0;
+  }
+}
+
+.exploreButton {
+  width: 274px;
+  height: 274px;
+  border-radius: 180px;
+  fill: primary-color;
+  font-family: secondary-font;
+  font-size: 2rem;
+  font-weight: 400;
+}
