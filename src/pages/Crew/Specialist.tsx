@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "../../components/Header/Header";
+import { NavBar } from "../../components/NavBar/NavBar";
 import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Specialist = () => {
   return (
     <main className={`${bgStyles.crewBG} ${bgStyles.bgSize}`}>
-      <Header />
+      <NavBar />
       <div>
       02 Meet your crew<br />
         <span>Mission Specialist</span><br />

@@ -1,12 +1,12 @@
 import React from "react";
-import { Header } from "../components/Header/Header";
+import { NavBar } from "../components/NavBar/NavBar";
 import styles from "./index.module.scss";
 import bgStyles from "../styles/backgrounds.module.scss";
 
 export const Home = () => {
   return (
     <main className={`${bgStyles.homeBG} ${bgStyles.bgSize}`}>
-      <Header />
+      <NavBar />
 
       <div>
       <section className={styles.description}>

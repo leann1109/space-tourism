@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "../../components/Header/Header";
+import { NavBar } from "../../components/NavBar/NavBar";
 import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Europa = () => {
   return (
     <main className={`${bgStyles.destinationBG} ${bgStyles.bgSize}`}>
-      <Header />
+      <NavBar />
       <div>
       01 Pick your destination<br />
         <span>Europa</span><br />

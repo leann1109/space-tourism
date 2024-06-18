@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "../../components/Header/Header";
+import { NavBar } from "../../components/NavBar/NavBar";
 import bgStyles from "../../styles/backgrounds.module.scss";
 
 export const Technology1 = () => {
   return (
     <main className={`${bgStyles.technologyBG} ${bgStyles.bgSize}`}>
-      <Header />
+      <NavBar />
       <div>
       03 Space launch 101<br />
         <span>The terminology...
