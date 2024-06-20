@@ -1,30 +1,65 @@
-.description {
-  color: secondary-color;
-  font-family: primary-font;
-  font-size: 1.75rem;
-  letter-spacing: 4.7px;
-  width: 450px;
+@import "..//styles/variables.module";
 
-  > span {
-    color: primary-color;
-    font-family: secondary-font;
-    font-size: 9.375rem;
-  }
-
-  > p {
-    font-size: 1.125rem;
-    line-height: 2rem;
-    letter-spacing: 0;
-    margin: 0;
-  }
+.contentContainer {
+	display: flex;
+	align-items: flex-end;
+	height: calc(90dvh - 32px); // subtracted padding from navbar
 }
 
-.exploreButton {
-  width: 274px;
-  height: 274px;
-  border-radius: 180px;
-  fill: primary-color;
-  font-family: secondary-font;
-  font-size: 2rem;
-  font-weight: 400;
+.description {
+	width: 450px;
+	margin-left: 13dvw;
+}
+
+.spaceMargin {
+	margin: 24px 0;
+}
+
+.description,
+.exploreContainer {
+	margin-bottom: 15dvh;
+}
+
+.exploreContainer {
+	margin-right: 10dvw;
+	margin-left: auto;
+}
+
+.exploreContainer:active {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 10%);
+	height: 450px;
+	width: 450px;
+	border-radius: 180%;
+	margin-bottom: 5.25dvh;
+	margin-right: 4.5dvw;
+}
+
+.exploreContainer:hover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 50%);
+	height: 450px;
+	width: 450px;
+	border-radius: 180%;
+	margin-bottom: 5.25dvh;
+	margin-right: 4.5dvw;
+}
+
+.exploreLink {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 274px;
+	height: 274px;
+	border-radius: 180px;
+	background-color: $primary-color;
+	color: $tertiary-color;
+	font-family: $secondary-font;
+	font-size: 2rem;
+	font-weight: 400;
+	text-decoration: none;
 }

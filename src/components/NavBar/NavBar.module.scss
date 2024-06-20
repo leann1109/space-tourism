@@ -11,7 +11,7 @@
 	justify-content: flex-end;
 	width: 100dvw;
 	height: 10dvh;
-	padding-top: 32px;
+	padding-top: 2rem;
 }
 
 .linksContainer {
@@ -44,14 +44,18 @@
 	text-decoration: none;
 	margin: 0 30px;
 	align-content: center;
+	height: 100%;
+	display: block;
 }
 
 .links:hover {
 	border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+	height: 97%;
 }
 
 .links:active {
 	border-bottom: 3px solid $primary-color;
+	height: 97%;
 }
 
 .navText {

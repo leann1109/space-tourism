@@ -1,48 +1,60 @@
-@import './styles/_variables.module.scss';
+@import "./styles/_variables.module.scss";
 
 * {
-  body {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    color: $primary-color;
-  };
-};
+	body {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin: 0;
+		color: $primary-color;
+	}
+}
 
-.heading1, .heading2, .heading3, .heading4 {
-  font-family: $secondary-font;
-};
+.heading1,
+.heading2,
+.heading3,
+.heading4 {
+	font-family: $secondary-font;
+}
 
 .heading1 {
-  font-size: $heading1-font-size;
-};
+	font-size: $heading1-font-size;
+}
 
 .heading2 {
-  font-size: $heading2-font-size;
-};
+	font-size: $heading2-font-size;
+}
 
 .heading3 {
-  font-size: $heading3-font-size;
-};
+	font-size: $heading3-font-size;
+}
 
 .heading4 {
-  font-size: $heading4-font-size;
-};
+	font-size: $heading4-font-size;
+}
 
 .heading5 {
-  font-family: $primary-font;
-  font-size: $heading5-font-size;
-  letter-spacing: $heading5-char-space;
-};
+	color: $secondary-color;
+	font-family: $primary-font;
+	font-size: $heading5-font-size;
+	letter-spacing: $heading5-char-space;
+}
 
 .subheading1 {
-  font-family: $secondary-font;
-  font-size: $subheading1-font-size;
+	font-family: $secondary-font;
+	font-size: $subheading1-font-size;
 }
 
 .subheading2 {
-  font-family: $primary-font;
-  font-size: $subheading2-font-size;
-  letter-spacing: $subheading2-char-space;
-};
+	font-family: $primary-font;
+	font-size: $subheading2-font-size;
+	letter-spacing: $subheading2-char-space;
+}
+
+.textContent {
+	color: $secondary-color;
+	line-height: $content-line-height;
+	font-size: $content-font-size;
+	font-family: $content-font;
+	margin: 0;
+}

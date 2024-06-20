@@ -21,34 +21,29 @@ export const NavBar = () => {
 
 				<div className={styles.linksContainer}>
 					<ul>
-						<a className={styles.links} href="/">
-							<div>
-								<li>
-									<strong>00 </strong>HOME
-								</li>
-							</div>
-						</a>
-						<a className={styles.links} href="/destination">
-							<div>
-								<li>
-									<strong>01 </strong>DESTINATION
-								</li>
-							</div>
-						</a>
-						<a className={styles.links} href="/crew">
-							<div>
-								<li>
-									<strong>02 </strong>CREW
-								</li>
-							</div>
-						</a>
-						<a className={styles.links} href="/technology">
-							<div>
-								<li>
-									<strong>03 </strong>TECHNOLOGY
-								</li>
-							</div>
-						</a>
+						<li>
+							<a className={styles.links} href="/">
+								<strong>00 </strong>HOME
+							</a>
+						</li>
+
+						<li>
+							<a className={styles.links} href="/destination">
+								<strong>01 </strong>DESTINATION
+							</a>
+						</li>
+
+						<li>
+							<a className={styles.links} href="/crew">
+								<strong>02 </strong>CREW
+							</a>
+						</li>
+
+						<li>
+							<a className={styles.links} href="/technology">
+								<strong>03 </strong>TECHNOLOGY
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
